@@ -50,7 +50,8 @@ This project analyzes customer behavior patterns to identify churn risks, high-r
 
 ## Project Preview
 
-(Add dashboard screenshot here)
+<img width="1264" height="711" alt="image" src="https://github.com/user-attachments/assets/580898f5-7708-4bc1-a1b9-b2a734ccad7c" />
+
 
 ---
 
