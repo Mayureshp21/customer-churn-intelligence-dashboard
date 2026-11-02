@@ -84,15 +84,7 @@ Both models were trained on an 80/20 train-test split (80,000 / 20,000 customers
 
 ## Architecture
 
-```mermaid
-flowchart LR
-    A[Customer data<br/>100K rows, CSV] --> B[SQL Server<br/>Data quality checks<br/>Cleaning<br/>Segment analysis]
-    A --> C[Python / Pandas<br/>Encoding<br/>Feature preparation]
-    C --> D[scikit-learn<br/>Logistic Regression<br/>Random Forest]
-    B --> E[Power BI<br/>KPI dashboard<br/>Decomposition tree]
-    D --> E
-    E --> F[Business insights<br/>and retention actions]
-```
+![Architecture diagram](architecture_churn.png)
 
 ---
 
@@ -129,6 +121,7 @@ customer-churn-intelligence-dashboard/
 ├── churn_analysis.ipynb                # Python: feature preparation and ML models
 ├── Churn_Analysis_PowerBI.pbix         # Power BI dashboard
 ├── Dashboard.png                       # Dashboard screenshot
+├── architecture_churn.png              # Architecture diagram
 └── README.md
 ```
 
@@ -184,4 +177,3 @@ jupyter notebook churn_analysis.ipynb
 M.Sc. Software Engineering, Hochschule Heilbronn | SAP Certified Data Analyst (SAP Analytics Cloud)
 
 [LinkedIn](https://www.linkedin.com/in/mayureshparche/) | [GitHub](https://github.com/Mayureshp21)
-
